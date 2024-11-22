@@ -20,12 +20,12 @@ class Rectangle : Shape
 
     public override double Area()
     {
-        return Length * Width;
+        return Length * Length;
     }
 
     public override double Perimeter()
     {
-        return 2 * (Length + Width);
+        return 2 * (Length + Length);
     }
 }
 
