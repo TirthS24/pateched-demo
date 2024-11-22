@@ -17,11 +17,11 @@ class Rectangle extends Shape {
     }
 
     area() {
-        return this.length * this.width;
+        return this.length * this.length;
     }
 
     perimeter() {
-        return 2 * (this.length + this.width);
+        return 2 * (this.length + this.length);
     }
 }
 
