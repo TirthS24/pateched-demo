@@ -5,10 +5,11 @@ class Shape:
     def area(self):
         """Compute the area of the shape."""
         raise NotImplementedError("This method should be overridden in subclasses.")
+    def area(self):
+        return self.length * self.width
     
-    def perimeter(self):
-        """Compute the perimeter of the shape."""
-        raise NotImplementedError("This method should be overridden in subclasses.")
+     def perimeter(self):
+        return 2 * (self.length + self.width)
 
 class Rectangle(Shape):
     def __init__(self, length, width):
