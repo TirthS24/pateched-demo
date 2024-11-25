@@ -2,13 +2,15 @@ using System;
 
 abstract class Shape
 {
-    // Base class for shapes
-    public abstract double Area();
-    public abstract double Perimeter();
-}
-
-class Rectangle : Shape
-{
+    public override double Area()
+    {
+        return Length * Width;
+    }
+    
+    public override double Perimeter()
+    {
+        return 2 * (Length + Width);
+    }
     private double Length { get; }
     private double Width { get; }
 
