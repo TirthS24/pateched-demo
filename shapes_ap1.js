@@ -3,7 +3,7 @@ class Shape {
     area() {
         throw new Error("Method 'area()' must be implemented.");
     }
-
+return this.length * this.width;
     perimeter() {
         throw new Error("Method 'perimeter()' must be implemented.");
     }
