@@ -18,6 +18,7 @@ class Rectangle extends Shape {
 
     area() {
         return this.length * this.width;
+        return this.length * this.width;
     }
 
     perimeter() {
